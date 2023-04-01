@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+font-family: 'open sans';
+}
+.contenedor{
+    padding:0px 0 ;
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header{
+    width: 100%;
+    height: 480px;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(293, 100%, 50%, 0.603), hsla(270, 100%, 50%, 0.607)),url(../img/asesor.jfif);
+    background: linear-gradient(to right, hsla(293, 100%, 50%, 0.603), hsla(270, 100%, 50%, 0.607)),url(../img/asesor.jfif); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav>a{
+color:#fff;
+font-weight: 300;
+text-decoration: none;
+margin-right: 10px;
+}
+nav>a:hover{
+text-decoration: underline;
+    }
+
+header .textos-header{
+display: flex;
+height: 430px;
+width: 100%;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+
+}
+.textos-header h1{
+    font-size: 80px;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight:300px ;
+    color: #fff;
+}
+.ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+    .contenedor h2{
+        color: #642a73;
+        font-size: 45px;
+        text-align:center;
+    }
+
+
+    .contenedor-servicios h2{
+        color: #642a73;
+        font-size: 45px;
+        text-align:center;
+    }
+    .contenedor-nuestroscliente h2{
+        color: #642a73;
+        font-size: 45px;
+        text-align:center;
+    }
+   .ok{
+    display:auto;
+   }
+  
+    .info-servicios p{
+        text-align: justify;
+        display: inline-block;
+       
+    }
+    .contenedor-servicios{
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
+        background: #f2f2f2;
+        padding:30px;
+    }
+
+    .contenedor-beneficios{
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
+        background: #f2f2f2;
+        padding:30px;
+    }
+        
+    .contenedor-beneficios h2{
+        color: #642a73;
+        font-size: 45px;
+        text-align:center;
+    }
+    .lisbeneficios{
+        text-align: justify;
+        vertical-align: auto;
+    }
+    .contenedor-nuestroscliente{
+       
+        padding:30px;
+    }
+    .contenedor-form{
+        padding: 30px;
+    }
+    .contenedor-form h2{
+        color: #642a73;
+        font-size: 45px;
+        text-align:center;
+    }
+
+    .contenedor-form p{
+        text-align: justify;
+    }
+    .nuestros-servicios{
+        padding: auto;
+    }
+    .contenedor-form{
+        padding: 30px;
+    }
+    /*footer*/
+footer{
+    background-color: #414141;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc; 
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+    text-align: center;
+
+}
+
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 50px 0 0 0;
+  color: #9e9799;
+}
+input[type="submit"]{
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+    background:#af20d3;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+input[type =submit]:hover{
+    
+background: #7F00FF;
+}
+.contenedor h3{
+    color: #4d0686;
+}
+.container p{
+font-weight: 300px;
+text-align: justify;
+}
+
+
+    
